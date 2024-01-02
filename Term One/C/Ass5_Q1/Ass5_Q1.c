@@ -25,6 +25,10 @@ int main() {
 				if (c == 1)
 					printf("\nThe *prime number(s)* between '%d' & '%d' is(are) : ", n1, n2);
 				printf("%d  ", j);
+				if (j == n2 - 1) {
+					fflush(stdin);
+					printf(" [*%d* prime number(s)]", c);
+				}
 			}
 			if (j == n2 - 1) {
 				fflush(stdin);

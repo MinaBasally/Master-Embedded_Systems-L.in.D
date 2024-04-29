@@ -24,7 +24,7 @@
 	### 6. GetLength_iterative()
  API Function: /* Find The Total Number of students using an Iterative Method and Print it */
 
-	### 7. GetLength_recursive(* )  +  ### 8. PrintLength_recursive()
+	### 7. GetLength_recursive(* )
  API Function: /* Find The Total Number of students using a Recursive Method and Print it */
 
 	### 9. GetNthFromTheEnd()

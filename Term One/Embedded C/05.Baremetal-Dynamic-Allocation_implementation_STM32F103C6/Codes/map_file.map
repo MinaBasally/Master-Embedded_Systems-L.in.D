@@ -1,0 +1,134 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00020000         xr
+sram             0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+LOAD C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+START GROUP
+LOAD c:/yagarto-20121222_arm_toolchain/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb/v7m\libgcc.a
+LOAD c:/yagarto-20121222_arm_toolchain/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m\libg.a
+LOAD c:/yagarto-20121222_arm_toolchain/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m\libc.a
+END GROUP
+
+.text           0x08000000      0x220
+ *(.vectors*)
+ .vectors       0x08000000       0x1c C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+                0x08000000                vectors
+ *(.text)
+ .text          0x0800001c      0x140 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+                0x0800001c                NMI_handler
+                0x08000028                Bus_fault_handler
+                0x08000034                _sbrk
+                0x080000ac                main
+ .text          0x0800015c       0xbc C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+                0x0800015c                Usage_fault_handler
+                0x0800015c                MM_fault_handler
+                0x0800015c                H_fault_handler
+                0x0800015c                Default_handler
+                0x08000168                Reset_handler
+ *(.rodata)
+ .rodata        0x08000218        0x8 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+                0x08000218                R_ODR
+                0x0800021c                g_const_variables
+ *(.rodata.*)
+                0x08000220                . = ALIGN (0x4)
+                0x08000220                _E_text = .
+
+.glue_7         0x08000220        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08000220        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08000220        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08000220        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08000220        0x0
+ .iplt          0x00000000        0x0 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+
+.rel.dyn        0x08000220        0x0
+ .rel.iplt      0x00000000        0x0 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+
+.data           0x20000000        0x4 load address 0x08000220
+                0x20000000                _S_data = .
+ *(.data)
+ .data          0x20000000        0x4 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+                0x20000000                g_variables
+ .data          0x20000004        0x0 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+ *(.data.*)
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                _E_data = .
+
+.igot.plt       0x20000004        0x0 load address 0x08000224
+ .igot.plt      0x00000000        0x0 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+
+.bss            0x20000004     0x2004 load address 0x08000224
+                0x20000004                . = ALIGN (0x4)
+                0x20000004                _S_bss = .
+ *(.bss*)
+ .bss           0x20000004        0x4 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .bss           0x20000008        0x0 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+                0x20000008                . = ALIGN (0x4)
+                0x20000008                _E_bss = .
+                0x20001008                . = (. + 0x1000)
+ *fill*         0x20000008     0x1000 
+                0x20001008                . = ALIGN (0x4)
+                0x20001008                _E_heap = .
+                0x20002008                . = (. + 0x1000)
+ *fill*         0x20001008     0x1000 
+                0x20002008                . = ALIGN (0x4)
+                0x20002008                _stack_top = .
+OUTPUT(Baremetal_Dynamic_Allocation_implementation_STM32F103C6_cortex-m3.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x3a8
+ .debug_info    0x00000000      0x23a C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .debug_info    0x0000023a      0x16e C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.debug_abbrev   0x00000000      0x208
+ .debug_abbrev  0x00000000      0x148 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .debug_abbrev  0x00000148       0xc0 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.debug_loc      0x00000000      0x12c
+ .debug_loc     0x00000000       0xc8 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .debug_loc     0x000000c8       0x64 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.debug_aranges  0x00000000       0x40
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .debug_aranges
+                0x00000020       0x20 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.debug_line     0x00000000      0x18f
+ .debug_line    0x00000000       0xcf C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .debug_line    0x000000cf       0xc0 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.debug_str      0x00000000      0x214
+ .debug_str     0x00000000      0x197 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00000197       0x7d C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+                                0x1a9 (size before relaxing)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .ARM.attributes
+                0x00000033       0x33 C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o
+
+.debug_frame    0x00000000       0xc4
+ .debug_frame   0x00000000       0x78 C:\Users\Mina\AppData\Local\Temp\cc5AhTBn.o
+ .debug_frame   0x00000078       0x4c C:\Users\Mina\AppData\Local\Temp\ccShcLlf.o

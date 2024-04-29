@@ -1,0 +1,423 @@
+Ultrasonic Sensor initialization...Done
+DC-Motor initialization...Done
+DC-Motor State : idle...distance = 0 , speed = 0
+
+
+US-Sensor State : busy...distance = 53
+US-Sensor : distance = 53 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 53 , speed = 30
+DC-Motor State : running...distance = 53 , speed = 30
+
+
+US-Sensor State : busy...distance = 54
+US-Sensor : distance = 54 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 54 , speed = 30
+DC-Motor State : running...distance = 54 , speed = 30
+
+
+US-Sensor State : busy...distance = 54
+US-Sensor : distance = 54 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 54 , speed = 30
+DC-Motor State : running...distance = 54 , speed = 30
+
+
+US-Sensor State : busy...distance = 46
+US-Sensor : distance = 46 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 46 , speed = 0
+DC-Motor State : idle...distance = 46 , speed = 0
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 55
+US-Sensor : distance = 55 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 55 , speed = 30
+DC-Motor State : running...distance = 55 , speed = 30
+
+
+US-Sensor State : busy...distance = 46
+US-Sensor : distance = 46 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 46 , speed = 0
+DC-Motor State : idle...distance = 46 , speed = 0
+
+
+US-Sensor State : busy...distance = 45
+US-Sensor : distance = 45 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 45 , speed = 0
+DC-Motor State : idle...distance = 45 , speed = 0
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 53
+US-Sensor : distance = 53 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 53 , speed = 30
+DC-Motor State : running...distance = 53 , speed = 30
+
+
+US-Sensor State : busy...distance = 51
+US-Sensor : distance = 51 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 51 , speed = 30
+DC-Motor State : running...distance = 51 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 48
+US-Sensor : distance = 48 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 48 , speed = 0
+DC-Motor State : idle...distance = 48 , speed = 0
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 54
+US-Sensor : distance = 54 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 54 , speed = 30
+DC-Motor State : running...distance = 54 , speed = 30
+
+
+US-Sensor State : busy...distance = 47
+US-Sensor : distance = 47 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 47 , speed = 0
+DC-Motor State : idle...distance = 47 , speed = 0
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 53
+US-Sensor : distance = 53 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 53 , speed = 30
+DC-Motor State : running...distance = 53 , speed = 30
+
+
+US-Sensor State : busy...distance = 55
+US-Sensor : distance = 55 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 55 , speed = 30
+DC-Motor State : running...distance = 55 , speed = 30
+
+
+US-Sensor State : busy...distance = 51
+US-Sensor : distance = 51 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 51 , speed = 30
+DC-Motor State : running...distance = 51 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 53
+US-Sensor : distance = 53 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 53 , speed = 30
+DC-Motor State : running...distance = 53 , speed = 30
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 51
+US-Sensor : distance = 51 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 51 , speed = 30
+DC-Motor State : running...distance = 51 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 47
+US-Sensor : distance = 47 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 47 , speed = 0
+DC-Motor State : idle...distance = 47 , speed = 0
+
+
+US-Sensor State : busy...distance = 46
+US-Sensor : distance = 46 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 46 , speed = 0
+DC-Motor State : idle...distance = 46 , speed = 0
+
+
+US-Sensor State : busy...distance = 54
+US-Sensor : distance = 54 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 54 , speed = 30
+DC-Motor State : running...distance = 54 , speed = 30
+
+
+US-Sensor State : busy...distance = 55
+US-Sensor : distance = 55 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 55 , speed = 30
+DC-Motor State : running...distance = 55 , speed = 30
+
+
+US-Sensor State : busy...distance = 55
+US-Sensor : distance = 55 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 55 , speed = 30
+DC-Motor State : running...distance = 55 , speed = 30
+
+
+US-Sensor State : busy...distance = 47
+US-Sensor : distance = 47 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 47 , speed = 0
+DC-Motor State : idle...distance = 47 , speed = 0
+
+
+US-Sensor State : busy...distance = 49
+US-Sensor : distance = 49 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 49 , speed = 0
+DC-Motor State : idle...distance = 49 , speed = 0
+
+
+US-Sensor State : busy...distance = 54
+US-Sensor : distance = 54 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 54 , speed = 30
+DC-Motor State : running...distance = 54 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 49
+US-Sensor : distance = 49 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 49 , speed = 0
+DC-Motor State : idle...distance = 49 , speed = 0
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 51
+US-Sensor : distance = 51 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 51 , speed = 30
+DC-Motor State : running...distance = 51 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 45
+US-Sensor : distance = 45 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 45 , speed = 0
+DC-Motor State : idle...distance = 45 , speed = 0
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 45
+US-Sensor : distance = 45 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 45 , speed = 0
+DC-Motor State : idle...distance = 45 , speed = 0
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 49
+US-Sensor : distance = 49 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 49 , speed = 0
+DC-Motor State : idle...distance = 49 , speed = 0
+
+
+US-Sensor State : busy...distance = 50
+US-Sensor : distance = 50 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 50 , speed = 0
+DC-Motor State : idle...distance = 50 , speed = 0
+
+
+US-Sensor State : busy...distance = 46
+US-Sensor : distance = 46 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 46 , speed = 0
+DC-Motor State : idle...distance = 46 , speed = 0
+
+
+US-Sensor State : busy...distance = 48
+US-Sensor : distance = 48 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 48 , speed = 0
+DC-Motor State : idle...distance = 48 , speed = 0
+
+
+US-Sensor State : busy...distance = 55
+US-Sensor : distance = 55 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 55 , speed = 30
+DC-Motor State : running...distance = 55 , speed = 30
+
+
+US-Sensor State : busy...distance = 51
+US-Sensor : distance = 51 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 51 , speed = 30
+DC-Motor State : running...distance = 51 , speed = 30
+
+
+US-Sensor State : busy...distance = 45
+US-Sensor : distance = 45 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 45 , speed = 0
+DC-Motor State : idle...distance = 45 , speed = 0
+
+
+US-Sensor State : busy...distance = 45
+US-Sensor : distance = 45 ----> Logic
+Logic : speed = 0 ----> DC-Motor
+Logic State : waiting...distance = 45 , speed = 0
+DC-Motor State : idle...distance = 45 , speed = 0
+
+
+US-Sensor State : busy...distance = 51
+US-Sensor : distance = 51 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 51 , speed = 30
+DC-Motor State : running...distance = 51 , speed = 30
+
+
+US-Sensor State : busy...distance = 52
+US-Sensor : distance = 52 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 52 , speed = 30
+DC-Motor State : running...distance = 52 , speed = 30
+
+
+US-Sensor State : busy...distance = 53
+US-Sensor : distance = 53 ----> Logic
+Logic : speed = 30 ----> DC-Motor
+Logic State : driving...distance = 53 , speed = 30
+DC-Motor State : running...distance = 53 , speed = 30

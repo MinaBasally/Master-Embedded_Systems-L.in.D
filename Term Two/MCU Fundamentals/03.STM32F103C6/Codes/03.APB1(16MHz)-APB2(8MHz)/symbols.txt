@@ -1,0 +1,16 @@
+20000000 B _E_bss
+20000000 D _E_data
+0800016c T _E_text
+20000000 B _S_bss
+20000000 D _S_data
+20001000 B _stack_top
+080000d8 W Bus_fault_handler
+080000d8 T Default_handler
+080000d8 W H_fault_handler
+0800001c T main
+080000d8 W MM_fault_handler
+080000d8 W NMI_handler
+08000168 T R_ODR
+080000e4 T Reset_handler
+080000d8 W Usage_fault_handler
+08000000 T vectors
